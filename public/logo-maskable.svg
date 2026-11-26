@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="ArchDoddle Maskable Icon">
+  <defs>
+    <linearGradient id="archMaskBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="skyNodeM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="indigoNodeM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    <linearGradient id="tealNodeM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2DD4BF" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed safe background for adaptive OS masks -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#archMaskBg)" />
+
+  <!-- Centered 74% safe-zone motif -->
+  <g transform="translate(66.5 66.5) scale(0.74)">
+    <g fill="none" stroke="#F1F5F9" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M132 378 L256 122 L380 378" />
+      <line x1="176.5" y1="286" x2="335.5" y2="286" />
+    </g>
+
+    <circle cx="256" cy="286" r="22" fill="#0F172A" stroke="#38BDF8" stroke-width="9" />
+    <circle cx="256" cy="286" r="6" fill="#F1F5F9" />
+
+    <rect x="210" y="92" width="92" height="62" rx="16" fill="url(#skyNodeM)" stroke="#0F172A" stroke-width="10" />
+    <rect x="232" y="114" width="48" height="8" rx="4" fill="#E0F2FE" />
+    <rect x="242" y="128" width="28" height="6" rx="3" fill="#BAE6FD" fill-opacity="0.85" />
+
+    <rect x="86" y="347" width="92" height="62" rx="16" fill="url(#indigoNodeM)" stroke="#0F172A" stroke-width="10" />
+    <rect x="108" y="369" width="48" height="8" rx="4" fill="#EEF2FF" />
+    <rect x="118" y="383" width="28" height="6" rx="3" fill="#C7D2FE" fill-opacity="0.85" />
+
+    <rect x="334" y="347" width="92" height="62" rx="16" fill="url(#tealNodeM)" stroke="#0F172A" stroke-width="10" />
+    <rect x="356" y="369" width="48" height="8" rx="4" fill="#CCFBF1" />
+    <rect x="366" y="383" width="28" height="6" rx="3" fill="#99F6E4" fill-opacity="0.85" />
+  </g>
+</svg>

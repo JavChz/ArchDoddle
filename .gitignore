@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build output (built and deployed by GitHub Actions to GitHub Pages)
+dist/
+dist-ssr/
+*.local
+
+# Testing & coverage
+coverage/
+.vitest/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Caches
+.vite/
+.cache/
+.npm
+.eslintcache
+.stylelintcache
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
